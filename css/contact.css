@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Josefin+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(209, 207, 207);
+    width: 224px;
+    font-family: 'Alkatra', cursive;
+    height: 100vh;
+
+}
+
+.sidebar nav {
+    padding: 45px 25px 70px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 18px;
+
+}
+
+.sidebar nav li a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: black;
+}
+
